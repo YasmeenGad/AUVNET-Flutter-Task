@@ -1,6 +1,6 @@
 import 'package:auvnet_flutter_task/features/auth/presentation/pages/login.dart';
 import 'package:auvnet_flutter_task/features/auth/presentation/pages/register.dart';
-import 'package:auvnet_flutter_task/features/home/home.dart';
+import 'package:auvnet_flutter_task/features/home/presentation/pages/home.dart';
 import 'package:auvnet_flutter_task/features/onboarding/presentation/pages/onboarding.dart';
 import 'package:go_router/go_router.dart';
 
