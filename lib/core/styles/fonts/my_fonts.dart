@@ -11,6 +11,11 @@ class MyFonts {
     fontWeight: FontWeight.w400,
     fontSize: 14,
   );
+
+  static TextStyle styleBold_14 = TextStyle(
+    fontWeight: FontWeight.bold,
+    fontSize: 14,
+  );
   static TextStyle styleMedium_18 = TextStyle(
     fontWeight: FontWeight.w500,
     fontSize: 18,
