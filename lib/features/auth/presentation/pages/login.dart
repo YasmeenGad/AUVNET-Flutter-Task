@@ -41,8 +41,8 @@ class Login extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: CustomButton(text: 'Login', onTap: () {
-                    context.go(AppRouter.)
-                  }),
+                        context.go(AppRouter.register);
+                      }),
                 ),
                 const SizedBox(height: 16),
                 Text("Create an account", style: MyFonts.styleBold_14.copyWith(color: MyColors.blueColor)),
