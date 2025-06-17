@@ -69,7 +69,7 @@ class _OnboardingState extends State<Onboarding> {
                               CustomButton(
                                 text: "Get Started",
                                 onTap: () {
-                                  context.goNamed(AppRouter.login);
+                                  context.go(AppRouter.login);
                                 },
                               ),
                               const SizedBox(
@@ -78,7 +78,7 @@ class _OnboardingState extends State<Onboarding> {
                               GestureDetector(
                                 onTap: () {
                                   if (currentIndex == contents.length - 1) {
-                                    context.goNamed(AppRouter.login);
+                                    context.go(AppRouter.login);
                                   }
                                   pageController.nextPage(
                                       duration: Duration(microseconds: 500),
